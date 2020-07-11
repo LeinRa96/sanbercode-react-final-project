@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    display: inline;
+}
+
+body {
+   font-family: "Times New Roman";
+   background-color: lightblue;
+}
+
+#shop {
+    color: white
+}
+
+.content {
+    color: black;
+}
+
+footer {
+   padding: 5px;
+   color: white;
+   background-color: black;
+   text-align: center;
+   font-weight: bolder;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+}
+
+.content {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: slateblue;
+    border: 1px solid black;
+}
+
+#form {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+}
+
+#synopsis {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+}
+
+#screenshot {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+}
+
+#list {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+}
+
+/* mulai dari sini untuk identity */
+
+aside{
+    font-family: sans-serif;
+}
+
+#identity {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 7.5px;
+    margin-top: 20px;
+    background-color:silver;
+    border: 1px solid black;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 25%;
+   border: 1px solid black;
+}
+
+th,
+td {
+   text-align: center;
+   padding: 4px;
+}
+
+th {
+   background-color: gold;
+   color: black;
+   border: 1px solid black;
+}
+ 
+tr {
+   background-color: burlywood;
+   color: black;
+   border: 1px solid black;
+}
+
+/* dari sini untuk pengaturan flow content dan aside */
+
+.content {
+    float: left;
+    width: 75%;
+ }
+ 
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* dari sini untuk mengature mobile view */
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
